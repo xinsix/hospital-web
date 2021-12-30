@@ -128,7 +128,6 @@ export default {
             data:{phone:phone,sms:captcha},
             success:function(data){
                 if (data=="success") {
-                    alert("验证码正确！");
                     window.location.href="http://yy.xinsix.com/home";
                 }else
                     alert("验证码错误！")
