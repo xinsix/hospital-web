@@ -87,7 +87,7 @@ export default {
 
   methods: {
     feikon() {
-      var phoneReg = /(^1[3|4|5|7|8]\d{9}$)|(^09\d{8}$)/;
+      var phoneReg = /(^1[3|4|5|7|8|9]\d{9}$)|(^09\d{8}$)/;
 
       var userName = $("#userName").val();
       // var phone = $.trim($("#phone1").val());
